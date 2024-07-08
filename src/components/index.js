@@ -1,0 +1,22 @@
+export { default as About } from './about/about'
+export { default as BackToTop } from './back-to-top/back-to-top'
+export { default as Blog } from './blog/blog'
+export { default as SingleBlog } from './blog/blog-card/blog-card'
+export { default as Contacts } from './contacts/contacts'
+export { default as Education } from './education/education'
+export { default as Experience } from './experience/experience'
+export { default as Landing } from './landing/landing'
+export { default as Navbar } from './navbar/navbar'
+export { default as SingleProject } from './projects/project-card/project-card'
+export { default as Projects } from './projects/projects'
+export { default as Skills } from './skills/skills'
+// export {default as RepoCard} from './Repo/repocard'
+export {default as WatchIcon} from './icons/WatchIcon'
+export {default as ForkIcon} from './icons/ForkIcon'
+export {default as StarIcon} from './icons/StarIcon'
+export {default as GithubIcon} from './icons/GithubIcon'
+export {default as LinkIcon} from './icons/LinkIcon'
+// export {default as Github} from './Repo/github'
+
+
+
