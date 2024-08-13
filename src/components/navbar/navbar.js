@@ -42,7 +42,7 @@ function Navbar() {
                 </h1>
 
                 <IoMenuSharp
-                    className={`text-3xl md:text-4xl text-[${theme.tertiary}] cursor-pointer translate-y-3 xs:text-2xl transition-colors hover:text-[${theme.primary}] `}
+                    className={`text-3xl md:text-4xl text-[${theme.tertiary}] ${theme.type=='dark'?"text-white":""} cursor-pointer translate-y-3 xs:text-2xl transition-colors hover:text-[${theme.primary}] `}
                     onClick={handleDrawerOpen}
                     aria-label='Menu'
                 />
@@ -112,7 +112,8 @@ function Navbar() {
 
                         <Fade left>
                             <Link
-                                href='/#resume'
+                                target="_blank"
+                                href='https://drive.google.com/file/d/1AEyZUgo5_GtDf1pi-lMYJNA51PxwFVlw/view'
                             >
                                 <div className={`my-[2em] mx-auto rounded-[78.8418px] text-[#ffffff]  sm:w-[85%] w-[100%] h-[55px] sm:h-[60px] flex items-center justify-evenly px-[25px] sm:px-[30px] box-border border-2 border-[#1D9BF0] hover:text-[#15202B] hover:bg-[#1D9BF0] transition-colors`}>
                                     <HiDocumentText

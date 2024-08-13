@@ -40,11 +40,11 @@ function Contacts() {
 
   const handleContactForm = (e) => {
     e.preventDefault();
-    console.log(
-      process.env.NEXT_PUBLIC_PUBLIC_KEY,
-      process.env.NEXT_PUBLIC_SERVICE_ID,
-      process.env.NEXT_PUBLIC_TEMPLATE_ID
-    );
+    // console.log(
+    //   process.env.NEXT_PUBLIC_PUBLIC_KEY,
+    //   process.env.NEXT_PUBLIC_SERVICE_ID,
+    //   process.env.NEXT_PUBLIC_TEMPLATE_ID
+    // );
     if (name && email && message) {
       if (isEmail(email)) {
         emailjs
@@ -79,7 +79,7 @@ function Contacts() {
   };
   const backgroundColor =
     theme.type === "light" ? "rgb(239, 243, 244)" : "#2c3e50";
-  const bglabel = theme.type === "light" ? "bg-slate-400" : "#2c3e50";
+  const bglabel = theme.type === "light" ? "bg-slate-200" : "#2c3e50";
   return (
     <div
       className={styles.contacts}
@@ -95,8 +95,9 @@ function Contacts() {
                 <label
                   htmlFor="Name"
                   className={`bg-[#15202B] ${textColor} 
-                                font-semibold text-[0.9rem] py-0 px-[5px] 
-                                inline-flex translate-x-[25px] translate-y-[50%] rounded-sm ${bglabel}`}
+                                    font-semibold text-[0.9rem] px-[5px] 
+                                    inline-flex translate-x-[25px] 
+                                    translate-y-[50%] rounded-sm ${bglabel}`}
                 >
                   Name
                 </label>

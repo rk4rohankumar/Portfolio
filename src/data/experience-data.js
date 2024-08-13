@@ -1,11 +1,11 @@
 export const experienceData = [
   {
     id: 1,
-    company: "Oasis Infobyte",
-    jobtitle: "Web Development Intern",
-    startYear: "July 2023",
-    endYear: "Aug 2023",
-  },
+    company: "Growquest",
+    jobtitle: "Frond End Developer Intern",
+    startYear: "July 2024",
+    endYear: "Present",
+  },  
   {
     id: 2,
     company: "E-Cell IIIT Pune",
@@ -13,11 +13,11 @@ export const experienceData = [
     startYear: "Jan 2023",
     endYear: "Present",
   },
-  // {
-  //     id: 3,
-  //     company: 'Learning New Technology For Everyday',
-  //     jobtitle: 'Self Learning',
-  //     startYear: '2018',
-  //     endYear: 'Present'
-  // },
+  {
+    id: 3,
+    company: "Oasis Infobyte",
+    jobtitle: "Web Development Intern",
+    startYear: "July 2023",
+    endYear: "Aug 2023",
+  },
 ];
