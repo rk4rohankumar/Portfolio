@@ -113,7 +113,7 @@ function Navbar() {
                         <Fade left>
                             <Link
                                 target="_blank"
-                                href='https://drive.google.com/file/d/1AEyZUgo5_GtDf1pi-lMYJNA51PxwFVlw/view'
+                                href={process.env.NEXT_PUBLIC_RESUME_URL}
                             >
                                 <div className={`my-[2em] mx-auto rounded-[78.8418px] text-[#ffffff]  sm:w-[85%] w-[100%] h-[55px] sm:h-[60px] flex items-center justify-evenly px-[25px] sm:px-[30px] box-border border-2 border-[#1D9BF0] hover:text-[#15202B] hover:bg-[#1D9BF0] transition-colors`}>
                                     <HiDocumentText
