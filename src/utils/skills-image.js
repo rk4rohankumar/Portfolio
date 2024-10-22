@@ -76,12 +76,14 @@ import github from '../assets/svg/skills/github.svg'
 import ubuntu from '../assets/svg/skills/ubuntu.svg'
 import vscode from '../assets/svg/skills/vscode.svg'
 import canva from '../assets/svg/skills/canva.svg'
+import ubuntulogo from '../assets/svg/skills/ubuntu-logo.svg'
+import VisualSltudioCode from '../assets/svg/skills/VisualSltudioCode.svg'
 
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
-        case 'vscode':
+        case 'VS Code':
             return vscode;
         case 'gcp':
             return gcp;
@@ -236,7 +238,7 @@ export const skillsImage = (skill) => {
         case 'github':
             return github;
         case 'ubuntu':
-            return ubuntu;
+            return ubuntulogo;
         default:
             break;
     }
